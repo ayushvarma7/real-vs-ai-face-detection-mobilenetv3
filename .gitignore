@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data and training artifacts produced by the notebook
+real_and_AI/
+real_and_AI.zip
+best_*.keras
+!game/best_model.keras
+
+# Secrets and OS files
+.env
+.DS_Store
